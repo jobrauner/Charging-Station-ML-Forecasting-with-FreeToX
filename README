@@ -1,18 +1,20 @@
-This project focuses on optimizing the expansion strategy of FreeToX, a leading EV charging operator in Italy, by leveraging big data and machine learning.
+This project aims to optimize the expansion strategy of FreeToX, a leading EV charging operator in Italy, by applying big data analytics and machine learning.**
 
-Developed as part of the LUISS x FreeToX collaboration, the analysis is structured into three key tasks:
-
-Task 1: Data Cleaning, Integration & Network Insights###
-We cleaned, transformed, and integrated multiple datasets—charging sessions, station metadata, and location records. The aim was to build a coherent view of the charging network and extract early insights on installation trends, energy usage, and geographic distribution
+Conducted within the LUISS x FreeToX collaboration, the project is structured into three core tasks:
+Task 1: Data Cleaning, Integration & Network Insights
+We processed and integrated multiple datasets—including charging sessions, station metadata, and geographic records—to build a unified view of the FreeToX network. This enabled early insights into installation patterns, energy consumption, and regional distribution trends.
 
 Task 2: Site Scoring & Throughput Forecasting
-We assessed site potential using external data sources (traffic, population density, POIs, and eco-incentives) to build a throughput forecasting model. The goal: identify high-potential locations for infrastructure development using geo-marketing and behavioral indicators.
+Leveraging external data sources (traffic, population density, POIs, eco-incentives), we developed a forecasting framework to estimate charging throughput and evaluate site potential. This allowed us to identify strategic, high-impact locations for future installations.
 
 Task 3: Modeling & Ranking Optimal Locations
-We built and compared machine learning models to predict station performance and economic return. Locations were ranked based on a composite index combining usage, revenue per kWh, cost efficiency, amenity diversity, and competitor density.
+We trained and compared machine learning models to predict station-level performance and economic viability. Locations were ranked using a composite scoring index based on usage data, revenue per kWh, cost metrics, amenity richness, and competitor presence.
 
-Tools used: Python, Pandas, PySpark, GeoPandas, Folium, Osmnx
-Data sources: CDRs, PDRs, Hypercharge Sessions/Locations, TGMA, ISTAT, GeoJSON
-Modeling: Regression models, entropy metrics, scoring indexes, KPI-based ranking
+Tools & Technologies
 
-The final goal was to provide data-driven recommendations for FreeToX to optimize its EV infrastructure placement strategy, reduce installation risk, and maximize throughput and profitability.
+**Languages & Libraries**: Python, Pandas, PySpark, GeoPandas, Folium, Osmnx
+**Data Sources**: CDRs, PDRs, Hypercharge Sessions/Locations, TGMA, ISTAT, GeoJSON
+**Modeling Techniques**: Regression models, entropy measures, location scoring, KPI-based ranking
+
+Objective
+The project delivers data-driven recommendations to support FreeToX in strategically expanding its EV charging infrastructure—minimizing deployment risk and maximizing network efficiency, usage, and profitability.
