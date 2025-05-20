@@ -1,4 +1,4 @@
-# This project aims to optimize the expansion strategy of FreeToX, a leading EV charging operator in Italy, by applying big data analytics and machine learning.
+This project aims to optimize the expansion strategy of FreeToX, a leading EV charging operator in Italy, by applying big data analytics and machine learning.
 
 Conducted within the LUISS x FreeToX collaboration, the project is structured into three core tasks:
 Task 1: Data Cleaning, Integration & Network Insights
@@ -12,9 +12,9 @@ We trained and compared machine learning models to predict station-level perform
 
 Tools & Technologies
 
-**Languages & Libraries**: Python, Pandas, PySpark, GeoPandas, Folium, Osmnx
-**Data Sources**: CDRs, PDRs, Hypercharge Sessions/Locations, TGMA, ISTAT, GeoJSON
-**Modeling Techniques**: Regression models, entropy measures, location scoring, KPI-based ranking
+Languages & Libraries: Python, Pandas, PySpark, GeoPandas, Folium, Osmnx
+Data Sources: CDRs, PDRs, Hypercharge Sessions/Locations, TGMA, ISTAT, GeoJSON
+Modeling Techniques: Regression models, entropy measures, location scoring, KPI-based ranking
 
 Objective
 The project delivers data-driven recommendations to support FreeToX in strategically expanding its EV charging infrastructure—minimizing deployment risk and maximizing network efficiency, usage, and profitability.
