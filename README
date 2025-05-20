@@ -1,0 +1,18 @@
+This project focuses on optimizing the expansion strategy of FreeToX, a leading EV charging operator in Italy, by leveraging big data and machine learning.
+
+Developed as part of the LUISS x FreeToX collaboration, the analysis is structured into three key tasks:
+
+Task 1: Data Cleaning, Integration & Network Insights###
+We cleaned, transformed, and integrated multiple datasets—charging sessions, station metadata, and location records. The aim was to build a coherent view of the charging network and extract early insights on installation trends, energy usage, and geographic distribution
+
+Task 2: Site Scoring & Throughput Forecasting
+We assessed site potential using external data sources (traffic, population density, POIs, and eco-incentives) to build a throughput forecasting model. The goal: identify high-potential locations for infrastructure development using geo-marketing and behavioral indicators.
+
+Task 3: Modeling & Ranking Optimal Locations
+We built and compared machine learning models to predict station performance and economic return. Locations were ranked based on a composite index combining usage, revenue per kWh, cost efficiency, amenity diversity, and competitor density.
+
+Tools used: Python, Pandas, PySpark, GeoPandas, Folium, Osmnx
+Data sources: CDRs, PDRs, Hypercharge Sessions/Locations, TGMA, ISTAT, GeoJSON
+Modeling: Regression models, entropy metrics, scoring indexes, KPI-based ranking
+
+The final goal was to provide data-driven recommendations for FreeToX to optimize its EV infrastructure placement strategy, reduce installation risk, and maximize throughput and profitability.
